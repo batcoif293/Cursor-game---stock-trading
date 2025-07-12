@@ -2,6 +2,15 @@
 
 A React Native mobile application that simulates stock trading with a fun and interactive interface.
 
+## 🚀 **NEW SHOP SYSTEM ADDED**
+
+**🛒 EXCITING NEW FEATURES:**
+- **🏠 Luxury Apartment**: Buy for $12,000 - unlocks your personal space
+- **🚗 Pontiac Aztec**: Purchase for $7,000 - your unique ride  
+- **🏠 My House**: View all your possessions after buying an apartment
+- **💰 Shopping Experience**: Beautiful shop interface with item details
+- **💾 Persistence**: All purchases are saved and loaded automatically
+
 ## 🚀 **PERMISSIONS FIXED - NO PERMISSIONS REQUIRED**
 
 **🔧 STORAGE PERMISSIONS ISSUE COMPLETELY RESOLVED:**
@@ -13,12 +22,22 @@ A React Native mobile application that simulates stock trading with a fun and in
 
 ## Features
 
+### **Trading Features**
 - 📱 **Buy and Sell Stocks**: Interactive buy/sell buttons for 6 different stocks
 - 💰 **Portfolio Management**: Track your cash balance, portfolio value, and total worth
 - 📊 **Real-time Stock Data**: Dynamic stock prices that change every 3 seconds
 - 🎯 **Percentage-based Trading**: Choose what percentage of your balance to invest
 - 📈 **Stock Portfolio Tracking**: See exactly how many shares you own of each stock
-- 🎮 **Game-like Experience**: Start with $10,000 virtual money to trade
+
+### **Shop & Lifestyle Features**
+- 🛒 **Shop System**: Buy luxury items with your trading profits
+- � **Luxury Apartment**: $12,000 downtown apartment with city views
+- 🚗 **Pontiac Aztec**: $7,000 unique SUV for your daily commute
+- 🏠 **My House**: Personal space to view all your possessions (unlocked with apartment)
+- 💎 **Collection System**: Build your collection of luxury items
+
+### **Game Features**
+- �🎮 **Game-like Experience**: Start with $10,000 virtual money to trade
 - 💾 **Secure Save System**: Internal storage with automatic backup
 - 🔄 **Reset Functionality**: Complete game reset option with confirmation
 - 📱 **Zero Permissions**: No storage permissions required - works instantly
@@ -34,41 +53,57 @@ A React Native mobile application that simulates stock trading with a fun and in
 - **AMZN** - Amazon.com Inc.
 - **NVDA** - NVIDIA Corp.
 
+## Shop Items
+
+### **🏠 Real Estate**
+- **Luxury Apartment** - $12,000
+  - Beautiful downtown apartment with city views
+  - Unlocks your personal space and "My House" feature
+  - Essential for accessing your possessions collection
+
+### **🚗 Vehicles**
+- **Pontiac Aztec** - $7,000
+  - Unique and distinctive SUV
+  - Perfect for your daily commute
+  - Adds style to your virtual lifestyle
+
 ## Game Mechanics
 
-### **Price Updates**
-- Stock prices change every **3 seconds** with random fluctuations
-- Prices can fluctuate up to ±2% per update
-- Minimum price floor at 50% of original stock price
-- Real-time visual feedback with green/red change indicators
+### **Stock Trading**
+- **Price Updates**: Stock prices change every **3 seconds** with random fluctuations
+- **Fluctuation Range**: Prices can fluctuate up to ±2% per update
+- **Price Floor**: Minimum price floor at 50% of original stock price
+- **Visual Feedback**: Real-time green/red change indicators
+
+### **Shopping System**
+- **Shop Access**: Orange "🛒 SHOP" button in the main menu
+- **Purchase Confirmation**: Confirm before buying expensive items
+- **Ownership Tracking**: Items marked as "OWNED" after purchase
+- **Balance Check**: Prevents purchases if insufficient funds
+- **Item Details**: Full descriptions and categories for each item
+
+### **House System**
+- **Apartment Required**: "🏠 MY HOUSE" button appears after buying apartment
+- **Possessions View**: See all your owned items with details
+- **Collection Display**: Beautiful interface showing your purchases
+- **Item Values**: See the original purchase price of each item
 
 ### **Save System**
 - **Internal Storage**: Uses app's private directory (no permissions needed)
 - **Manual Save**: Blue "💾 SAVE" button in the header
 - **Auto-Save**: Automatic save every 30 seconds (silent)
 - **Auto-Load**: Properly loads game on startup
+- **Complete Persistence**: Saves stocks, portfolio, balance, AND possessions
 - **Force Load**: Settings menu option with detailed feedback
-- **Save Location**: App's internal storage (automatically backed up)
 
 ### **Reset System**
-- **Reset Button**: Orange "🔄 RESET" button in the header
+- **Reset Button**: Red "🔄 RESET" button in the header
 - **Confirmation Dialog**: Prevents accidental resets
-- **Complete Reset**: Returns to $10,000 cash, no stocks, original prices
-
-### **Settings Menu**
-- **Access**: Gear icon (⚙️) in top-right corner
-- **Force Load**: Manual load with success/error feedback
-- **File Info**: View save file details, size, and content preview
-- **Storage Status**: Shows that no permissions are required
-
-### **Animated Background**
-- **Color Cycle**: Smooth transitions between 4 colors
-- **Duration**: Complete cycle every 32 seconds (8 seconds per color)
-- **Colors**: Dark blue → Navy → Deep blue → Back to start
-- **Performance**: Uses native driver for smooth animation
+- **Complete Reset**: Returns to $10,000 cash, no stocks, no possessions, original prices
 
 ## How to Use
 
+### **Basic Trading**
 1. **Install the APK**: Download `StockTradingGame.apk` to your Android device
 2. **Enable Unknown Sources**: Go to Settings > Security > Enable "Install from Unknown Sources"
 3. **Install**: Tap the APK file and follow installation prompts
@@ -77,43 +112,58 @@ A React Native mobile application that simulates stock trading with a fun and in
 6. **Buy Stocks**: Tap the green "BUY" button next to any stock
 7. **Choose Investment**: Enter the percentage of your balance to invest (1-100%)
 8. **Sell Stocks**: Tap the red "SELL" button to sell a percentage of your holdings
-9. **Save Progress**: Tap "💾 SAVE" to manually save (or wait for auto-save)
-10. **Access Settings**: Tap the gear icon (⚙️) for advanced options
-11. **Force Load**: Use settings menu if you need to manually reload
-12. **Reset Game**: Tap "🔄 RESET" if you want to start over
+
+### **Shopping & Lifestyle**
+9. **Make Profits**: Trade stocks to build up your cash balance
+10. **Visit Shop**: Tap the orange "🛒 SHOP" button when you have enough money
+11. **Buy Apartment**: Purchase the $12,000 luxury apartment first
+12. **Access House**: The green "🏠 MY HOUSE" button appears after buying apartment
+13. **Buy More Items**: Purchase the Pontiac Aztec or save for future items
+14. **View Collection**: Use "My House" to see all your possessions
+
+### **Game Management**
+15. **Save Progress**: Tap "💾 SAVE" to manually save (or wait for auto-save)
+16. **Access Settings**: Tap the gear icon (⚙️) for advanced options
+17. **Force Load**: Use settings menu if you need to manually reload
+18. **Reset Game**: Tap "🔄 RESET" if you want to start over
 
 ## App Interface
 
 ### **Header Section**
 - **Game Title**: "Stock Trading Game"
 - **Settings Icon**: Gear (⚙️) button for advanced options
-- **Cash Balance**: Your available money for trading
+- **Cash Balance**: Your available money for trading and shopping
 - **Portfolio Value**: Current value of all your stock holdings
 - **Total Value**: Cash + Portfolio (your net worth)
-- **💾 SAVE Button**: Manual save to internal storage
-- **🔄 RESET Button**: Reset game with confirmation
+- **Control Buttons**:
+  - **💾 SAVE**: Manual save to internal storage
+  - **� SHOP**: Access the shop (orange button)
+  - **🔄 RESET**: Reset game with confirmation (red button)
+- **🏠 MY HOUSE**: Appears after buying apartment (green button)
 
-### **Settings Menu**
-- **🔄 Force Load Game**: Manual load with detailed feedback
-- **📁 Save File Info**: View file details, size, and content preview
-- **✅ Storage Status**: Confirms no permissions are required
+### **Shop Interface**
+- **Balance Display**: Shows current cash available for shopping
+- **Item Cards**: Each item displays:
+  - **Large Emoji**: Visual representation of the item
+  - **Name & Category**: Item title and category (Real Estate, Vehicle)
+  - **Description**: Detailed description of the item
+  - **Price**: Cost in dollars
+  - **Buy/Owned Button**: Purchase button or "OWNED" status
+- **Scrollable List**: Browse through all available items
+- **Purchase Confirmation**: Confirm expensive purchases
 
-### **Status Indicator**
+### **My House Interface**
+- **Possessions Collection**: View all owned items
+- **Item Details**: Same information as shop, plus:
+  - **Original Value**: What you paid for the item
+  - **Collection Display**: Beautiful layout of your purchases
+- **Empty State**: Encourages shopping if no items owned
+
+### **Stock Trading Interface**
 - **Price Updates**: "📈 Prices update every 3 seconds • Auto-save every 30 seconds"
 - **Storage Info**: "✅ Using secure internal storage (no permissions required)"
-
-### **Stock Cards**
-- **Stock Symbol & Name**: Company ticker and full name
-- **Current Price**: Real-time updating price
-- **Price Change**: Daily change amount and percentage (color-coded)
-- **Shares Owned**: How many shares you currently own
+- **Stock Cards**: Company info, current price, changes, owned shares
 - **BUY/SELL Buttons**: Green buy, red sell (disabled if no shares)
-
-### **Trading Modal**
-- **Stock Information**: Current price display
-- **Percentage Input**: Enter 1-100% investment amount
-- **Live Preview**: Shows exact dollar amount and shares
-- **Confirm/Cancel**: Complete or abort the transaction
 
 ## Technical Details
 
@@ -125,6 +175,7 @@ A React Native mobile application that simulates stock trading with a fun and in
 - **Storage**: Internal storage (no permissions required)
 - **File System**: Uses react-native-fs for internal storage operations
 - **Animation**: Uses React Native Animated API for background effects
+- **State Management**: Complete game state including possessions
 - **Compatibility**: Works on all Android versions (7.0 to 14+)
 
 ## Installation Steps
@@ -137,6 +188,25 @@ A React Native mobile application that simulates stock trading with a fun and in
 4. **Launch**: Find "Stock Trading Game" in your app drawer and open it
 5. **Start Trading**: Begin immediately with $10,000 - no permissions needed!
 
+## Game Strategy Tips
+
+### **Early Game (Starting with $10,000)**
+- Focus on stock trading to build up your cash
+- Watch for good buying opportunities when prices dip
+- Use percentage-based trading to manage risk
+- Save regularly to protect your progress
+
+### **Mid Game ($15,000 - $25,000)**
+- Consider buying the Pontiac Aztec ($7,000) for your first possession
+- Continue trading to build toward apartment money
+- Diversify your stock portfolio for stable growth
+
+### **Late Game ($25,000+)**
+- Buy the luxury apartment ($12,000) to unlock "My House"
+- Enjoy viewing your possessions collection
+- Continue trading for the satisfaction of wealth building
+- Save your progress and show off your success!
+
 ## Troubleshooting
 
 ### ✅ **All Issues Fixed**
@@ -147,8 +217,9 @@ A React Native mobile application that simulates stock trading with a fun and in
 - **No save functionality**: FIXED - Full save/load system implemented
 - **Auto-load not working**: FIXED with enhanced logging and error handling
 - **Storage permissions**: FIXED - No permissions required anymore!
+- **Shop system**: All purchases save and load properly
 
-### � **For All Android Versions**
+### 📱 **For All Android Versions**
 - **Android 7-14**: Works perfectly with internal storage
 - **No Permission Dialogs**: App installs and runs immediately
 - **Settings Integration**: No special permissions shown in Android settings
@@ -161,34 +232,35 @@ A React Native mobile application that simulates stock trading with a fun and in
 
 ## What's New in This Version
 
-### � **Storage Permissions Completely Fixed**
-- **No Permissions Required**: Switched from external to internal storage
-- **Universal Compatibility**: Works on Android 7.0 through Android 14+
-- **Instant Installation**: No permission dialogs or setup required
-- **Settings Menu Fixed**: All buttons now work properly without permission checks
+### 🛒 **Brand New Shop System**
+- **Complete Shopping Experience**: Beautiful shop interface with item browsing
+- **Luxury Apartment**: $12,000 downtown apartment unlocks "My House" feature
+- **Pontiac Aztec**: $7,000 unique SUV for your virtual lifestyle
+- **My House Feature**: Personal space to view all your possessions
+- **Purchase Persistence**: All purchases automatically save and load
+
+### 🏠 **House & Possessions System**
+- **Apartment Unlock**: "My House" button appears after buying apartment
+- **Collection View**: Beautiful interface showing all owned items
+- **Item Details**: View descriptions, categories, and original purchase prices
+- **Ownership Tracking**: Items marked as "OWNED" in shop after purchase
 
 ### 🛠️ **Technical Improvements**
-- **Internal Storage**: Uses app's private directory (`DocumentDirectory`)
-- **Automatic Backup**: Files backed up by Android system
-- **Enhanced Security**: Files only accessible to this app
-- **Simplified Code**: Removed all permission-related complexity
-- **Better User Experience**: No permission warnings or disabled buttons
+- **Enhanced Save System**: Now includes possessions data in save files
+- **Shop Interface**: Scrollable shop with detailed item information
+- **Purchase Confirmation**: Prevents accidental expensive purchases
+- **Balance Checking**: Smart prevention of purchases with insufficient funds
+- **UI Enhancements**: New buttons, better layout, improved navigation
 
-### 📊 **Enhanced User Interface**
-- **Storage Status Indicator**: Shows that secure internal storage is active
-- **Simplified Settings**: Clean interface without permission management
-- **Instant Functionality**: All features work immediately after installation
-- **Professional Experience**: No technical barriers for users
+### 📊 **Enhanced User Experience**
+- **Goal-Oriented Gaming**: Trade stocks to afford luxury items
+- **Collection Motivation**: Build your possessions collection
+- **Lifestyle Simulation**: Virtual apartment and vehicle ownership
+- **Progress Visualization**: See your wealth through possessions
 
 ## Save File Information
 
-### **Location**
-- **Directory**: App's internal storage (private)
-- **File**: `StockTradingGameSave.json`
-- **Access**: Only accessible to this app
-- **Backup**: Automatically backed up by Android
-
-### **File Format**
+### **Updated Save Format**
 ```json
 {
   "balance": 10000,
@@ -206,6 +278,10 @@ A React Native mobile application that simulates stock trading with a fun and in
       "basePrice": 185.32
     }
   ],
+  "possessions": {
+    "apartment": true,
+    "pontiac_aztec": true
+  },
   "timestamp": 1641234567890
 }
 ```
